@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan PKL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Praktik Kerja Lapangan (PKL)</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#daily">Kegiatan Harian</a>
+            <a href="#documentation">Dokumentasi</a>
+            <a href="#contact">Kontak & Profil</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Tujuan PKL</h2>
+        <p>[Jelaskan tujuan dari kegiatan PKL di sini. Misalnya: Mempelajari manajemen data perusahaan, mengembangkan keterampilan komunikasi, dsb.]</p>
+    </section>
+
+    <section id="daily">
+        <h2>Kegiatan Harian</h2>
+        <form id="daily-report-form">
+            <label for="date">Tanggal:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="activity">Kegiatan:</label>
+            <textarea id="activity" name="activity" required></textarea>
+
+            <button type="submit">Tambahkan Kegiatan</button>
+        </form>
+        <div id="report-list">
+            <!-- Daftar kegiatan akan ditampilkan di sini -->
+        </div>
+    </section>
+
+    <section id="documentation">
+        <h2>Dokumentasi</h2>
+        <p>Upload foto kegiatan atau dokumentasi lainnya di sini.</p>
+        <input type="file" id="upload-file" accept="image/*">
+        <div id="gallery">
+            <!-- Gambar yang diunggah akan ditampilkan di sini -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak & Profil</h2>
+        <p>Nama: [Your Name]</p>
+        <p>Supervisor: [Nama Supervisor]</p>
+        <p>Kontak: [Email/Phone]</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Laporan PKL oleh [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
